@@ -1,0 +1,63 @@
+# Python bytecode, caches, and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.env.*
+.venv/
+env.bak/
+venv.bak/
+
+# Build artifacts and distribution folders
+build/
+dist/
+.eggs/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test and coverage reports
+.tox/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite build output (if not committed)
+dist/
+
+# Vite cache folder (if applicable)
+.vite/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories/files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/

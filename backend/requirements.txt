@@ -1,0 +1,18 @@
+# Install Janus directly from DeepSeek's GitHub repository:
+git+https://github.com/deepseek-ai/Janus.git@main#egg=janus
+fastapi==0.95.2
+uvicorn==0.18.2
+torch>=2.0.1
+torchvision==0.19.1
+transformers==4.38.2
+numpy
+Pillow
+sentencepiece
+attrdict
+timm==0.9.16
+einops
+safetensors==0.5.2
+accelerate
+pydantic
+python-multipart
+pydantic[dotenv]

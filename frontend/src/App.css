@@ -1,0 +1,124 @@
+/* Import a monospaced font with robust weights */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: #ff3b30; /* Bold red accent */
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.input-section {
+  margin-bottom: 2rem;
+  animation: fadeIn 1.5s ease-in;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1e1e1e;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-size: 1rem;
+  resize: none;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #ff3b30;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff3b30;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #e02e24;
+  transform: scale(1.02);
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.image-container {
+  margin-top: 2rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+.image-container img {
+  max-width: 100%;
+  border: 5px solid #333;
+  border-radius: 4px;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #ff3b30;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Simple animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
