@@ -1,6 +1,6 @@
 # Janus Pro UI
 
-![Janus Pro UI Banner](https://github.com/sbl8/janus-pro-ui/raw/main/sample.png)
+![Janus Pro UI Banner](https://github.com/sbl8/janus-pro-ui/blob/master/sample.png)
 
 Janus Pro UI is a modular application that integrates a FastAPI backend with a React frontend. The backend provides endpoints for image understanding and text-to-image generation using DeepSeek's Janus Pro models, while the frontend (built with React and Vite) serves as the user interface.
 
